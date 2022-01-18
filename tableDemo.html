@@ -1,14 +1,82 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Table Demo</title>
-        <meta name="description" content="Table Demo with HTML">
-        <meta name="author" content="Aaron Champagne">
-       
-    </head>
-<body>
-<!-- YOUR CONTENT HERE... -->
 
+<head>
+    <meta charset="utf-8">
+    <title>Table Demo</title>
+    <meta name="description" content="Table Demo with HTML">
+    <meta name="author" content="Aaron Champagne">
+
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+    <header>
+        <h1>Table Demo with HTML</h1>
+        <nav>
+            <a href="index.html">Home page</a>
+            <a href="imageDemo.html">Image demo</a>
+            <a href="tableDemo.html">Table demo</a>
+            <a href="semanticDemo.html">Semantic demo</a>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th></th>
+                <th class="hot">Hot Tub</th>
+                <th class="hot">Steam Room</th>
+                <th>Lane 1</th>
+                <th>Lane 2</th>
+                <th>Lane 3</th>
+                <th>Lane 4</th>
+                <th>Lane 5</th>
+                <th>Lane 6</th>
+            </tr>
+            <tr>
+                <td>8:30 -9:30</td>
+                <td>Maintenance</td>
+                <td>Open</td>
+                <td>Private Lessons</td>
+                <td>Private Lessons</td>
+                <td>Private Lessons</td>
+                <td colspan="3" rowspan="3">Lane Swim</td>
+            </tr>
+            <tr>
+                <td>9:30 - 10:30</td>
+                <td>Open</td>
+                <td>Maintenance</td>
+                <td>Private Lessons</td>
+                <td>Private Lessons</td>
+                <td>Private Lessons</td>
+            </tr>
+            <tr>
+                <td>10:30 - 12:00</td>
+                <td colspan="2">Open</td>
+                <td>Private Lessons</td>
+                <td>Private Lessons</td>
+                <td>Private Lessons</td>
+            </tr>
+            <tr>
+                <td>12:00 - 1:30</td>
+                <td colspan="8">CLOSED FOR LUNCH</td>
+            </tr>
+            <tr>
+                <td>1:30 - 3:30</td>
+                <td colspan="2" rowspan="3">Open</td>
+                <td colspan="3">Aquafit</td>
+                <td colspan="3" rowspan="2">Children Swim</td>
+            </tr>
+            <tr>
+                <td>3:30 - 5:30</td>
+                <td colspan="3" rowspan="2">Adult Swim</td>
+            </tr>
+            <tr>
+                <td>5:30 - 7:30</td>
+                <td colspan="3">Public Swim</td>
+            </tr>
+        </table>
+    </main>
 </body>
+
 </html>
